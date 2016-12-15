@@ -1,6 +1,5 @@
 System.config({
   baseURL: "/app",
-  rootURL: '.',
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
@@ -14,6 +13,7 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
+  rootURL: ".",
 
   meta: {
     "*.json": {
@@ -54,6 +54,7 @@ System.config({
     "redux-thunk": "npm:redux-thunk@2.1.0",
     "sass": "github:mobilexag/plugin-sass@0.5.1",
     "whatwg-fetch": "npm:whatwg-fetch@2.0.1",
+    "xterm": "github:sourcelair/xterm.js@master",
     "github:guybedford/system-md@0.1.0": {
       "showdown": "github:showdownjs/showdown@1.5.1"
     },

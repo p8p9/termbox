@@ -39,7 +39,8 @@
       "redux-logger": "npm:redux-logger@^2.7.4",
       "redux-thunk": "npm:redux-thunk@^2.1.0",
       "sass": "github:mobilexag/plugin-sass@^0.5.1",
-      "whatwg-fetch": "npm:whatwg-fetch@^2.0.1"
+      "whatwg-fetch": "npm:whatwg-fetch@^2.0.1",
+      "xterm": "github:sourcelair/xterm.js@master"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",

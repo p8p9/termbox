@@ -1,5 +1,5 @@
 import Preact, {Component} from 'preact'
-import HTerm from './HTerm'
+import XTerm from './XTerm'
 import themes from '../themes'
 import humanizeDuration from 'humanize-duration'
 
@@ -41,7 +41,7 @@ export default class Term extends Component {
           <div class="column is-offset-1 is-10" style={{height: '100%'}}>
             <div class="container" style={{height: '100%'}}>
               {box ?
-              <HTerm podId={podId} ref={(r) => this.hterm = r}
+              <XTerm podId={podId} ref={(r) => this.hterm = r}
                 onOpen={() => this.setState({state: 'connected'})}
                 onClose={() => this.setState({state: 'disconnected'})}
                 getThemeChangeHandler={(h) => this.setTheme = h}

@@ -1,6 +1,7 @@
 import 'font-awesome'
 import 'fizzed/font-mfizz/font-mfizz.css!'
 import 'bulma/css/bulma.css!'
+import 'xterm/dist/xterm.css!'
 import './styles/style.sass!'
 import 'whatwg-fetch'
 
