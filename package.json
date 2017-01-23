@@ -11,7 +11,7 @@
     "eslint-config-google": "^0.7.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-react": "^6.8.0",
-    "jspm": "^0.16.48"
+    "jspm": "^0.16.49"
   },
   "scripts": {
     "test": "eslint app",
